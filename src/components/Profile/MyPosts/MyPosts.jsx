@@ -19,7 +19,7 @@ const MyPosts = (props) => {
             <div>
                 <button onClick={textPost}>Add post</button>
             </div>
-            <div className={styles.posts}>
+            <div data-testid={'profile-posts'} className={styles.posts}>
                 {messageElement}
 
             </div>
